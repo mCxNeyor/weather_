@@ -277,7 +277,7 @@
         }));
         function updateChart() {
                     $.ajax({
-                        url: "{{ route('display') }}",
+                        url: "http://stormy-dorey-manyanya-758eeafa.koyeb.app/api/display",
                         type: 'GET',
                         dataType: 'json',
                         headers: {
